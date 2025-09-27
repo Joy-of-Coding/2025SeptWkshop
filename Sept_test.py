@@ -6,3 +6,6 @@ def test_01():
 
 def test_02():
     assert match("live","") == False
+
+def test_03():
+    assert match("live", "lives") == False
