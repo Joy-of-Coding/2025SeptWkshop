@@ -1,11 +1,13 @@
 #
 #
-#
+
 def match(p1,p2):
-    if  p2 != "":
+    if  p1 != "live":
         return(True)
     else:
         return(False)
+    
+    
 
 # def match(p1,p2):
 #     if p1 or p2 ==None:
